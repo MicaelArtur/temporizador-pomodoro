@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temporizador de tempo</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <div id="menssagem_timer">Por favor, selecione um temporizador antes de começar</div> 
+    <div class="conteiner">
+        <div class="timer">
+            <h1>-Temporizador Pomodoro-</h1>
+
+            <div class="button-conteiner"> 
+                <button class="button" id="pomodoro-session">Pomodoro</button>
+                <button class="button" id="cronometro-curto">cronômetro curto</button>
+                <button class="button" id="cronometro-longo">cronômetro Longo</button>
+            </div>
+            <main>
+                <div class="pomodoro">
+                    <div id="pomodoro-timer" class="timer-display" data-duration="25.00">
+                        <h1 class="time">25:00</h1>
+                    </div>
+                     <div id="curto-timer" class="timer-display" data-duration="5.00">
+                        <h1 class="time">5:00</h1>
+                    </div>
+                     <div id="longo-timer" class="timer-display" data-duration="10.00">
+                        <h1 class="time">10:00</h1>
+                    </div>
+                </div>
+            </main>
+            <div class="buttons">
+                <button id="start">INICIAR</button>
+                <button id="stop">PARAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
